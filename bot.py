@@ -5,7 +5,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 
 # Основная функция
 def main() -> None:
-    updater = Updater("7072812100:AAGE1fFEHPWM-9mtPaTli3yfcM3rnNOCI_o")
+    updater = Updater("XXXXX")
 
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
